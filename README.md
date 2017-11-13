@@ -42,7 +42,6 @@ BNA file is Business Network Archive, which is packaged version of
 Access Rules
 Transaction Rules
 
-## Our Models
 
   ## Participants
        Government
