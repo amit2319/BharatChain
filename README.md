@@ -1,11 +1,11 @@
-#Bharat Chain
+# Bharat Chain
 
-Team
+## Team
 
 Amit Mittal - https://github.com/amit2319
 Karan Kapoor - https://github.com/karankapoor229
 
-Problem Introduction
+## Problem Introduction
 
 BharatChain is private blockchain demonstrating Direct Tax Benefits and Corporate Allowances, made using HyperLedger Composer and HyperLedger Composer PlayGround.
 
@@ -30,7 +30,7 @@ by ensuring that the purpose of those funds are served, and when it happens
 it naturally resonates.
 
 
-Technical Specifications
+## Technical Specifications
 
 Framework used - HyperLedger Fabric, Composer and PlayGround
 
@@ -38,31 +38,31 @@ After Deploying the chain-code(.bna file) on the HyperLedger Fabric, Composer Pl
 
 BNA file is Business Network Archive, which is packaged version of
 
-Models
+## Models
 Access Rules
 Transaction Rules
 
-Our Models
+## Our Models
 
-Participants
-Government
-Individual
-Organizations
-Assets
-Lakshmi
-LakshmiType
-Transactions
-sendTransaction
+  ## Participants
+       Government
+       Individual
+       Organizations
+  ## Assets
+      Lakshmi
+      LakshmiType
+  ## Transactions
+      sendTransaction
 
 
 When we make a transaction of money transfer by an individual to an organization, it matches the assetTypes of both the entities involved, if they match the transaction goes through, else it fails.
 
-Steps to Deploy
+## Steps to Deploy
 
-Open https://bharatchain.org
-Import Network Business Card, given in the repository with name networkadmin.card
-Deploy a New Business Network, with bharat-chain.bna file
-Start Playing!!
+  Open https://bharatchain.org
+  Import Network Business Card, given in the repository with name networkadmin.card
+  Deploy a New Business Network, with bharat-chain.bna file
+  Start Playing!!
 
 
 Demo Video Link - https://www.youtube.com/watch?v=dnqEwU6QufY
