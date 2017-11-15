@@ -58,10 +58,13 @@ When we make a transaction of money transfer by an individual to an organization
 
 ## Steps to Deploy
 
-  Open https://bharatchain.org
-  Import Network Business Card, given in the repository with name networkadmin.card
-  Deploy a New Business Network, with bharat-chain.bna file
-  Start Playing!!
+  1. Open https://bharatchain.org
+  
+  2. Import Network Business Card, given in the repository with name networkadmin.card
+  
+  3. Deploy a New Business Network, with bharat-chain.bna file
+  
+  4. Start Playing!!
 
 
 Demo Video Link - https://www.youtube.com/watch?v=dnqEwU6QufY
