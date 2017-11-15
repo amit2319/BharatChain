@@ -2,12 +2,12 @@
 
 ## Team
 
-Amit Mittal - https://github.com/amit2319
-Karan Kapoor - https://github.com/karankapoor229
+    Amit Mittal - https://github.com/amit2319
+    Karan Kapoor - https://github.com/karankapoor229
 
 ## Problem Introduction
 
-BharatChain is private blockchain demonstrating Direct Tax Benefits and Corporate Allowances, made using HyperLedger Composer and HyperLedger Composer PlayGround.
+BharatChain is private blockchain demonstrating Direct Social Benefits and Corporate Allowances, made using HyperLedger Composer and HyperLedger Composer PlayGround.
 
 The Admin in our case the Government can issue cryptocurrency to any registered organization, individual. It can be used to add specific constraints on the asset issued, which allows it to be spent only when those constraint matches.
 
@@ -38,11 +38,9 @@ After Deploying the chain-code(.bna file) on the HyperLedger Fabric, Composer Pl
 
 BNA file is Business Network Archive, which is packaged version of
 
-## Models
-Access Rules
-Transaction Rules
-
-
+  ## Models
+       Access Rules
+       Transaction Rules
   ## Participants
        Government
        Individual
@@ -58,13 +56,14 @@ When we make a transaction of money transfer by an individual to an organization
 
 ## Steps to Deploy
 
-  1. Open https://bharatchain.org
+    1. Open https://bharatchain.org
   
-  2. Import Network Business Card, given in the repository with name networkadmin.card
+    2. Import Network Business Card, given in the repository with name networkadmin.card
   
-  3. Deploy a New Business Network, with bharat-chain.bna file
+    3. Deploy a New Business Network, with bharat-chain.bna file
   
-  4. Start Playing!!
+    4. Start Playing!!
+
 
 
 Demo Video Link - https://www.youtube.com/watch?v=dnqEwU6QufY
