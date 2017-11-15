@@ -1,0 +1,63 @@
+
+namespace org.bharatchain
+
+enum Type{
+  o Custom
+  o Generic
+}
+
+asset LakshmiType identified by typeId {
+  o String typeId
+  o Type type
+  o String[] tags
+}
+
+enum Issuedby{
+	o Government
+    o Organization
+}
+
+asset Lakshmi identified by assetId {
+  o String assetId
+  o String description optional
+  --> LakshmiType assettype
+  o Issuedby issuer
+  --> Entity owner
+  o Double value
+  
+}
+
+enum entityType {
+ o INDIVIDUAL
+ o ORGANIZATION
+ o GOVERNMENT
+}
+
+abstract participant Entity identified by entityId {
+  o String entityId
+  o entityType type
+}
+
+participant Organization identified by orgId extends Entity {
+  o String orgId
+  o String name
+  o String[] assetType
+}
+
+participant Individual identified by personId extends Entity {
+  o String personId
+  o String first_name
+  o String last_name
+}
+
+participant Government identified by deptId extends Entity {
+  o String deptId
+  o String deptName
+}
+
+transaction sendTransaction {
+	o Double value
+    --> Lakshmi asset
+    --> Entity to
+    o String assetId
+}
