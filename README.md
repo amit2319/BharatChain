@@ -56,7 +56,7 @@ When we make a transaction of money transfer by an individual to an organization
 
 ## Steps to Deploy
 
-    1. Open https://bharatchain.org
+    1. Open https://composer-playground.mybluemix.net/
   
     2. Import Network Business Card, given in the repository with name networkadmin.card
   
