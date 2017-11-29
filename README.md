@@ -2,8 +2,8 @@
 
 ## Team
 
-    Amit Mittal - https://github.com/amit2319
-    Karan Kapoor - https://github.com/karankapoor229
+    Amit Mittal - https://github.com/amit2319/
+    Karan Kapoor - https://github.com/karankapoor229/
 
 ## Problem Introduction
 
